@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import ma_tronche from 'Ma_Tronche.jpg'
+import ma_tronche from './assets/Ma_Tronche.jpg'
 import './App.css'
 
 function App() {
