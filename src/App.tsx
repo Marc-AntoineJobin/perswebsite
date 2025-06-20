@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import ma_tronche from 'Ma_Tronche.jpg'
 import './App.css'
 
