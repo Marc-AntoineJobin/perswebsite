@@ -1,4 +1,3 @@
-import React from 'react';
 import mysql from './assets/mysql.png';
 import java from './assets/java.svg';
 import csharp from './assets/csharp.png';
