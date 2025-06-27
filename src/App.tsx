@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom'
 import Apropos from './Apropos'
 import Competences from './Competences'
@@ -7,7 +6,6 @@ import Accueil from './Accueil'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
