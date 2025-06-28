@@ -8,7 +8,7 @@ import './App.css'
 function App() {
 
   return (
-    <>
+    <div className="d-flex flex-column min-vh-100">
       <Router>
         <nav className="navbar navbar-expand-lg navbar-dark dark-green ps-5">
           <div className="container-fluid">
@@ -62,7 +62,14 @@ function App() {
           <Route path="/projets" element={<Projets />} />
         </Routes>
       </Router>
-    </>
+      <footer className="mt-auto py-3 bg-light text-center">
+      Repository: <a href="https://github.com/Marc-AntoineJobin/perswebsite" target="_blank" rel="noopener noreferrer">
+      https://github.com/Marc-AntoineJobin/perswebsite
+      </a>
+      <br />
+      Marc-Antoine Jobin, 2025
+      </footer>
+    </div>
   )
 }
 
