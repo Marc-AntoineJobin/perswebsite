@@ -5,7 +5,7 @@ import GraphQL from './assets/GraphQL.png'
 function Projets() {
     return (
         <div className="container my-5">
-            <h1 className="text-center mb-5">Projets</h1>
+            <h1 className="text-center mb-5">Projets (et bien d'autres)</h1>
             
             <div className="row g-4">
                 <div className="col-md-6 col-lg-4">
